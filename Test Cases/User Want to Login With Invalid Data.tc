@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>User Want to Login With Invalid Data</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b003b24f-6f25-4cdd-8fa7-943275db22d5</testCaseGuid>
+</TestCaseEntity>

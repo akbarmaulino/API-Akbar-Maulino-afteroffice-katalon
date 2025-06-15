@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>User Want to Regristration With Invalid Data</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5858a346-cd8b-4a05-bdcc-01d78672c0af</testCaseGuid>
+</TestCaseEntity>
