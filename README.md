@@ -7,8 +7,7 @@ Automatioin untuk memverifikasi endpoint API [Reqres.in](https://reqres.in/) men
 ## Daftar Isi
 
 - [Persyaratan](#persyaratan)
-- [Instalasi & Menjalankan](#instalasi--menjalankan)
-- [Menjalankan dengan Environment `dev`](#menjalankan-dengan-environment-dev)
+- [Instalasi & Menjalankan](#instalasi--menjalankan)s
 
 
 ---
@@ -33,5 +32,3 @@ cd API-Akbar-Maulino-afteroffice-katalon
 2. Klik tombol **Play (Hijau)** di toolbar atas untuk menjalankan Test Suite.
 
 ---
-
-## Menjalankan dengan Environment `dev`
