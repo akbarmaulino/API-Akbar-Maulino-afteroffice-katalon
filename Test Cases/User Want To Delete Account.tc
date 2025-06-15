@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>User Want To Delete Account</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f122dbbf-11e5-4c7a-bcf7-f79daa8751b8</testCaseGuid>
+</TestCaseEntity>

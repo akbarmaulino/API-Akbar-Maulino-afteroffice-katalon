@@ -1,61 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>POST a new user</name>
+   <name>Get Single Users</name>
    <tag></tag>
-   <elementGuidId>bf95ec44-8f74-4b67-854c-83a7e77af5f2</elementGuidId>
+   <elementGuidId>99187dae-5e41-4713-ab17-548fc09107e1</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <autoUpdateContent>true</autoUpdateContent>
+   <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
-   <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;age\&quot;: ${age},\n  \&quot;avatar\&quot;: null,\n  \&quot;gender\&quot;:\&quot;${gender}\&quot;,\n  \&quot;password\&quot;: \&quot;${password}\&quot;,\n  \&quot;username\&quot;: \&quot;${username}\&quot;\n}&quot;,
-  &quot;contentType&quot;: &quot;application/json&quot;,
-  &quot;charset&quot;: &quot;UTF-8&quot;
-}</httpBodyContent>
-   <httpBodyType>text</httpBodyType>
+   <httpBodyContent></httpBodyContent>
+   <httpBodyType></httpBodyType>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>Content-Type</name>
+      <name>x-api-key</name>
       <type>Main</type>
-      <value>application/json</value>
+      <value>${GlobalVariable.api_key}</value>
+      <webElementGuid>fca02ee5-0d6a-44dd-ab52-89d6fc214b2e</webElementGuid>
    </httpHeaderProperties>
+   <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${GlobalVariable.baseUrl}/api/users/json</restUrl>
+   <path></path>
+   <restRequestMethod>GET</restRequestMethod>
+   <restUrl>${GlobalVariable.baseUrl}/api/users/2</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
    <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>18</defaultValue>
+      <defaultValue>21</defaultValue>
       <description></description>
-      <id>0ff0fdb5-ffe2-454e-8cf9-c2d44e21ddac</id>
+      <id>0de4fa76-1864-4d5e-aa8a-70ad8f4f4342</id>
       <masked>false</masked>
       <name>age</name>
    </variables>
    <variables>
-      <defaultValue>'MALE'</defaultValue>
+      <defaultValue>'ngoc'</defaultValue>
       <description></description>
-      <id>7c77cd5e-e69d-4bf6-bf4c-242ca104081c</id>
-      <masked>false</masked>
-      <name>gender</name>
-   </variables>
-   <variables>
-      <defaultValue>'mimi'</defaultValue>
-      <description></description>
-      <id>30565e15-eece-49b1-8159-ac9a99a956aa</id>
+      <id>086a27a9-05ed-4e07-8465-e17bddfdeac1</id>
       <masked>false</masked>
       <name>username</name>
    </variables>
    <variables>
-      <defaultValue>'123456789'</defaultValue>
+      <defaultValue>'1234567890'</defaultValue>
       <description></description>
-      <id>303e8db4-748d-4300-878d-05ef1956d9b6</id>
+      <id>311c2780-afd0-4352-a23f-fc00c2c42271</id>
       <masked>false</masked>
       <name>password</name>
+   </variables>
+   <variables>
+      <defaultValue>'https://www.rd.com/wp-content/uploads/2019/06/lily-of-the-valley-760x506.jpg'</defaultValue>
+      <description></description>
+      <id>bcddbada-1d5e-422c-b810-55f7c48bb931</id>
+      <masked>false</masked>
+      <name>avatar</name>
+   </variables>
+   <variables>
+      <defaultValue>'FEMALE'</defaultValue>
+      <description></description>
+      <id>3b3cb3f6-19ff-4f44-ae2c-a1c680bd3044</id>
+      <masked>false</masked>
+      <name>gender</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.successCode</defaultValue>
+      <description></description>
+      <id>f1c9042c-8dca-4d38-ba9e-77542f9e8d20</id>
+      <masked>false</masked>
+      <name>expectedStatusCode</name>
+   </variables>
+   <variables>
+      <defaultValue>7</defaultValue>
+      <description></description>
+      <id>c4249c68-7dc1-4ffc-ad8e-a4109ce4bb7b</id>
+      <masked>false</masked>
+      <name>id</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

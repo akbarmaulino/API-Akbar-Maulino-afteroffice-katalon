@@ -4,10 +4,12 @@
    <name>web-service-tests</name>
    <tag></tag>
    <UUID>3ac89d37-98ad-44e1-ae9d-e46160085471</UUID>
-   <freeLicense>false</freeLicense>
+   <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
+   <modifiedEdition>FREE</modifiedEdition>
+   <modifiedVersion>10.2.1</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>D:\Belajar\Belajar QA\After Office\API-Akbar Maulino-afteroffice-katalon\API-Akbar Maulino-afteroffice-katalon\web-service-tests.prj</projectFileLocation>
+   <projectFileLocation>D:\Belajar\Belajar QA\After Office\API-Akbar Maulino-afteroffice-katalon\web-service-tests.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
